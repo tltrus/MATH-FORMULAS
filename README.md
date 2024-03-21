@@ -1,6 +1,13 @@
 # MATH FORMULAS
  C# Math algorithms
 
+# Sunflower
+
+C# algorithms with 3 types of Sunflower
+
+![image](https://github.com/tltrus/MATH-FORMULAS/assets/77125487/92888f17-fee1-4cab-ac1e-5d633a562c0c)
+
+
 # Superformula
 
 C# math algorithm
