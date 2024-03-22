@@ -1,0 +1,36 @@
+﻿<Window x:Class="ChaosWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChaosWPF"
+        mc:Ignorable="d"
+        Title="Chaos" Height="580" Width="685" Initialized="Window_Initialized" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow">
+    <Grid Name="grid1" Margin="0,1,-0.4,1.2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition Height="0.1*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <WrapPanel Grid.Row="0" VerticalAlignment="Center">
+            <Button x:Name="btnStart" Content="Timer Start/Stop" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="100" Click="BtnStart_Click" Margin="5"/>
+            <Button Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Top" Width="78" Height="30" Click="BtnClear_Click"/>
+            <Button Name="btnStep" Content="Step++" HorizontalAlignment="Left" Height="30" Margin="5" VerticalAlignment="Top" Width="64" Click="btnStep_Click"/>
+            <RadioButton Name="chk1div2" Content="1 / 2" GroupName="radio" HorizontalAlignment="Left" Height="22" Margin="5" VerticalAlignment="Center" Width="73" IsChecked="True"/>
+            <RadioButton Name="chk1div3" Content="1 / 3" GroupName="radio" HorizontalAlignment="Left" Height="22" Margin="5" VerticalAlignment="Center" Width="73"/>
+            <RadioButton Name="chk2div3" Content="2 / 3" GroupName="radio" HorizontalAlignment="Left" Height="22" Margin="5" VerticalAlignment="Center" Width="73"/>
+            <Label Name="lblIter" Content="0" HorizontalAlignment="Left" Margin="5" VerticalAlignment="Center"/>
+        </WrapPanel>
+        <WrapPanel Grid.Row="1">
+            <TextBox HorizontalAlignment="Left" Height="31" Margin="5" TextWrapping="Wrap" 
+                     Text="Create vertices (with the left mouse button), for example a triangle,&#xD;&#xA;and then with the right mouse button create one vertex inside this triangle and start the timer"
+                     VerticalAlignment="Top" Width="658" BorderBrush="White"/>
+        </WrapPanel>
+        <Grid Grid.Row="3">
+            <Rectangle Fill="Black" HorizontalAlignment="Left" Height="453" Margin="5" Stroke="Black" VerticalAlignment="Top" Width="678"/>
+            <Image Name="image" HorizontalAlignment="Left" Height="453" Margin="5" VerticalAlignment="Top" Width="678" MouseLeftButtonDown="Image_MouseLeftButtonDown" MouseRightButtonDown="Image_MouseRightButtonDown"/>
+        </Grid>
+
+    </Grid>
+</Window>
