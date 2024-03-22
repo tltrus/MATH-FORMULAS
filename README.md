@@ -1,6 +1,13 @@
 # MATH FORMULAS
  C# Math algorithms
 
+# Chaos
+
+https://youtu.be/TOBPe_NnNzE
+
+![image](https://github.com/tltrus/MATH-FORMULAS/assets/77125487/de7640b6-60d1-4d3b-a6b8-1c6499d3dea9)
+
+
 # Sunflower
 
 C# algorithms with 3 types of Sunflower
