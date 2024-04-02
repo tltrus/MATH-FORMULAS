@@ -8,6 +8,14 @@ https://youtu.be/TOBPe_NnNzE
 ![image](https://github.com/tltrus/MATH-FORMULAS/assets/77125487/de7640b6-60d1-4d3b-a6b8-1c6499d3dea9)
 
 
+# Lissajous-curve
+
+C# Lissajous curve algorithm
+
+![image](https://github.com/tltrus/MATH-FORMULAS/assets/77125487/6d5c10b0-64da-4e61-b195-96dedd0f4258)
+
+
+
 # Sunflower
 
 C# algorithms with 3 types of Sunflower
