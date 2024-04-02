@@ -12,6 +12,8 @@ https://youtu.be/TOBPe_NnNzE
 
 C# Lissajous curve algorithm
 
+https://youtu.be/ZUeH1ElQ_Aw
+
 ![image](https://github.com/tltrus/MATH-FORMULAS/assets/77125487/6d5c10b0-64da-4e61-b195-96dedd0f4258)
 
 
