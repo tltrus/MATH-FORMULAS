@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="Phyllotaxis" Height="602.892" Width="683.682" Initialized="Window_Initialized" ResizeMode="NoResize" WindowStyle="ThreeDBorderWindow">
+    <Grid Name="grid1" Margin="0">
+        <StackPanel Margin="5">
+            <WrapPanel>
+                <Slider x:Name="slider" Width="300" ValueChanged="slider_ValueChanged" Minimum="1" Maximum="200" VerticalAlignment="Center" SmallChange="0.5" Value="137.5" />
+                <Label x:Name="lb" Content="0" />
+            </WrapPanel>
+            <Image x:Name="image1" Margin="1,10,0,0" Stretch="None" Height="520" VerticalAlignment="Top" HorizontalAlignment="Left" Width="660" OpacityMask="White"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
