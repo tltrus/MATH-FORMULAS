@@ -1,6 +1,15 @@
 # MATH FORMULAS
  C# Math algorithms
 
+
+# Cardiodid
+
+
+
+![image](https://github.com/user-attachments/assets/c8c1c219-3b22-4fe2-b0e1-1d7bb4b9dd93)
+
+
+
 # Chaos
 
 https://youtu.be/TOBPe_NnNzE
