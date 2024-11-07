@@ -27,6 +27,18 @@ https://youtu.be/ZUeH1ElQ_Aw
 
 ![image](https://github.com/tltrus/MATH-FORMULAS/assets/77125487/6d5c10b0-64da-4e61-b195-96dedd0f4258)
 
+
+# Maurer-Rose
+
+Polygonal curve with vertices on a rose
+
+- Based on: https://thecodingtrain.com/challenges/c1-maurer-rose
+- Youtube:
+- Rutube: 
+
+![image](https://github.com/user-attachments/assets/2c3d603a-8a7f-45d3-a64d-d53d00d41936)
+
+
 # Phyllotaxis
 
 Based on #30 — Phyllotaxis / https://thecodingtrain.com/challenges/30-phyllotaxis
