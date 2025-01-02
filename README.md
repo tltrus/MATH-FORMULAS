@@ -32,7 +32,7 @@ Polygonal curve with vertices on a rose
 
 - Based on: https://thecodingtrain.com/challenges/c1-maurer-rose
 - Youtube: https://youtu.be/uD4XoFvWMls
-- Rutube: https://rutube.ru/video/private/34879b80f005234956e6bcf1db37b891/?p=GhUT7te_cT-Rurlf8AMbcQ
+- Rutube: 
 
 ![image](https://github.com/user-attachments/assets/2c3d603a-8a7f-45d3-a64d-d53d00d41936)
 
